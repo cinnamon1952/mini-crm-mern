@@ -1,0 +1,4 @@
+/* Reset most Vite boilerplate; Tailwind utilities handle styling */
+html, body, #root {
+  height: 100%;
+}
