@@ -21,14 +21,14 @@ export default function Register() {
   }, [token, navigate]);
 
   return (
-    <div className="min-h-[70vh] flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 flex items-center justify-center px-4">
       <div className="w-full max-w-md">
         <div className="bg-white/70 backdrop-blur-lg shadow-2xl border border-white/20 rounded-2xl p-8">
           <div className="text-center mb-8">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-green-600 to-blue-600 rounded-full mb-4">
               <User className="w-8 h-8 text-white" />
             </div>
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">Create Account</h2>
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">Create Account</h2>
             <p className="text-gray-600 mt-2">Join us today</p>
           </div>
           

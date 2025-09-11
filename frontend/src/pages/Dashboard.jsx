@@ -23,14 +23,14 @@ export default function Dashboard() {
   const COLORS = ['#8884d8', '#82ca9d', '#ffc658', '#ff7f7f'];
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 p-6">
       <div className="flex items-center gap-3">
-        <div className="p-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg">
+        <div className="p-3 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl shadow-lg">
           <BarChart3 className="w-6 h-6 text-white" />
         </div>
         <div>
-          <h1 className="text-3xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">Dashboard</h1>
-          <p className="text-gray-600">Welcome to your CRM overview</p>
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Dashboard</h1>
+          <p className="text-gray-600 text-lg">Welcome to your CRM overview</p>
         </div>
       </div>
 
